@@ -1,0 +1,111 @@
+[
+  {
+    "id": "medical-admission",
+    "title": "Medical Admissions Program",
+    "category": "Admission",
+    "level": "Medical",
+    "image":"https://udvash-unmesh.com//media/Images/Udvash/program/2026/ap26/3/a%20(4).png",
+    "shortDescription": "Complete preparation for MBBS and dental admission tests.",
+    "details": {
+      "duration": "12 Months",
+      "classesPerWeek": 6,
+      "mockTests": 25,
+      "subjects": ["Physics", "Chemistry", "Biology", "English"],
+      "mode": "Online",
+      "targetStudents": "HSC passed or appearing students"
+    }
+  },
+  {
+    "id": "university-k-admission",
+    "title": "University 'K' Admissions Program",
+    "category": "Admission",
+    "level": "University",
+    "image":"https://udvash-unmesh.com//media/Images/Udvash/program/2026/ap26/3/a%20(7).png",
+    "shortDescription": "Focused preparation for public university 'K' unit admission.",
+    "details": {
+      "duration": "8 Months",
+      "classesPerWeek": 5,
+      "mockTests": 20,
+      "subjects": ["Physics", "Chemistry", "Math", "English"],
+      "mode": "Online",
+      "targetStudents": "HSC science background students"
+    }
+  },
+  {
+    "id": "model-test-program",
+    "title": "Model Test Program",
+    "category": "Practice",
+    "level": "Admission",
+    "image":"https://udvash-unmesh.com//media/Images/Udvash/program/2026/HSCMT2026.jpg",
+    "shortDescription": "Regular model tests to evaluate admission readiness.",
+    "details": {
+      "duration": "4 Months",
+      "testsPerMonth": 8,
+      "analysisSessions": true,
+      "mode": "Online",
+      "targetStudents": "Admission candidates"
+    }
+  },
+  {
+    "id": "engineering-admission",
+    "title": "Engineering Admissions Program",
+    "category": "Admission",
+    "level": "Engineering",
+    "image":"https://udvash-unmesh.com//media/Images/Udvash/program/2025/EAP25MTPackage1.png",
+    "shortDescription": "Complete preparation for engineering universities admission tests.",
+    "details": {
+      "duration": "10 Months",
+      "classesPerWeek": 6,
+      "mockTests": 22,
+      "subjects": ["Physics", "Chemistry", "Math"],
+      "mode": "Online",
+      "targetStudents": "HSC science students"
+    }
+  },
+  {
+    "id": "university-kh-admission",
+    "title": "University 'Kh' Admissions Program",
+    "category": "Admission",
+    "level": "University",
+    "image":"https://udvash-unmesh.com//media/Images/Udvash/program/2026/ap26/3/a%20(10).png",
+    "shortDescription": "Arts and commerce focused admission preparation for 'Kh' unit.",
+    "details": {
+      "duration": "6 Months",
+      "classesPerWeek": 5,
+      "mockTests": 18,
+      "subjects": ["Bangla", "English", "General Knowledge"],
+      "mode": "Online",
+      "targetStudents": "HSC arts & commerce students"
+    }
+  },
+  {
+    "id": "class-6-10-academic",
+    "title": "Class 6-10 Academic Program",
+    "category": "Academic",
+    "level": "School",
+    "image":"https://udvash-unmesh.com//media/Images/Udvash/program/2026/SSC26MTofon.png",
+    "shortDescription": "Academic support for class 6 to 10 students.",
+    "details": {
+      "duration": "12 Months",
+      "classesPerWeek": 4,
+      "subjects": ["Math", "Science", "English", "Bangla"],
+      "mode": "Online",
+      "targetStudents": "Class 6-10 students"
+    }
+  },
+  {
+    "id": "talent-hunt-program",
+    "title": "Talent Hunt Program",
+    "category": "Special",
+    "level": "Scholarship",
+    "image":"https://udvash-unmesh.com//media/Images/Udvash/program/2026/academic26/26FreeCrouse6,7,8,9,10a.png",
+    "shortDescription": "Talent identification and scholarship preparation program.",
+    "details": {
+      "duration": "3 Months",
+      "testsPerMonth": 6,
+      "scholarship": true,
+      "mode": "Online",
+      "targetStudents": "Meritorious students"
+    }
+  }
+]

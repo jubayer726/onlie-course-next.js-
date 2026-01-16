@@ -24,3 +24,15 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.text-primary {
+  @apply text-[#c01f5b] ;
+}
+.text-secondary {
+  @apply text-[#6440a7];
+}
+.text-title {
+  @apply text-[rgb(25,1,38)];
+}
+
