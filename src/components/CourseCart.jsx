@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const CourseCard = ({ program }) => {
   return (
@@ -33,9 +34,10 @@ const CourseCard = ({ program }) => {
 
         {/* Buttons */}
         <div className="flex gap-3 pt-3">
-          <button className="flex-1 py-2 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-medium hover:scale-105 transition">
+          <Link href={`/programs/${program.id}`}
+           className="flex-1 text-center py-2 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-medium hover:scale-105 transition">
             Details / Routine
-          </button>
+          </Link>
 
           <button className="flex-1 py-2 rounded-full bg-gradient-to-r from-orange-500 to-pink-600 text-white font-medium hover:scale-105 transition">
             Enroll Now
