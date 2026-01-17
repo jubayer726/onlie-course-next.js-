@@ -25,18 +25,12 @@ const About = () => {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center py-16">
           {/* Left Text Section */}
           <div>
-            <h2 className="text-3xl md:text-4xl font-semibold bg-linear-to-r from-orange-500 to-green-500 bg-clip-text text-transparent mb-6">
-              About Care Connect
+            <h2 className="text-3xl md:text-4xl font-semibold text-primary mb-6">
+              About <span className="text-secondary">Online Coaching</span>
             </h2>
 
             <p className="text-gray-700 text-lg leading-7 mb-4">
-              We provide reliable and trusted care services for children,
-              elderly, and other family members. The application allows users to
-              find and hire caretakers for different purposes such as
-              babysitting, elderly care, or special care at home. Users can
-              easily book services through the platform. The main goal of the
-              project is to make caregiving easy, secure, and accessible for
-              everyone.
+              Human civilization has been developing for many, many years. For these thousands of years, people have been mixing with people, people have been knowing and understanding people, people have been researching people - yet they are mysterious people! In a word, people have incredible powers. What was impossible in the history of the world until now - now many of them are possible. People have made these impossible things possible. Once upon a time, someone who was born on an isolated island in the Pacific or Atlantic Ocean, for him the vast expanse of water was the edge of the world! People can now go from one end of the world to the other within a day.
             </p>
           </div>
 
@@ -52,11 +46,11 @@ const About = () => {
           </div>
         </div>
 
-        <section className="py-16 border">
+        <section className="py-16">
           <div className="max-w-7xl mx-auto px-6 text-center">
             {/* Heading */}
-            <h2 className="text-7xl font-bold bg-linear-to-r from-orange-500 to-green-500 bg-clip-text text-transparent mb-4">
-              Meet the Team
+            <h2 className="text-4xl font-bold text-primary mb-4">
+              Meet <span className="text-secondary">Our Team</span>
             </h2>
 
             <p className="text-gray-600 max-w-2xl mx-auto mb-12">
@@ -70,7 +64,7 @@ const About = () => {
               {teamMembers.map((member, index) => (
                 <div
                   key={index}
-                  className="rounded-xl shadow-md p-8 hover:shadow-xl transition"
+                  className="rounded-xl shadow-md bg-white hover:scale-105 p-8 hover:shadow-xl transition"
                 >
                   <Image
                     src={member.image}

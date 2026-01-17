@@ -7,13 +7,13 @@ const Contact = () => {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           {/* Left: Contact Info */}
           <div>
-            <h2 className="text-3xl md:text-4xl font-semibold text-[#0f172a] mb-6">
-              Contact Us
+            <h2 className="text-3xl md:text-4xl font-semibold text-primary mb-6">
+              Contact <span className="text-secondary">Us</span>
             </h2>
 
             <p className="text-gray-700 text-lg leading-7 mb-6">
               Have questions or need support? We re here to help students,
-              tutors, and parents connect smoothly on eTuitionBd.
+              tutors, and parents connect smoothly on Online Coaching.
             </p>
 
             <div className="space-y-5 text-gray-800 text-lg">
@@ -33,14 +33,14 @@ const Contact = () => {
 
               <div className="flex items-center space-x-3">
                 <span className="text-2xl">📧</span>
-                <p>support@care-connect.xyz</p>
+                <p>support@online-coaching.com</p>
               </div>
             </div>
           </div>
 
           {/* Right: Contact Form */}
           <div className="bg-white shadow-md rounded-xl p-8">
-            <h3 className="text-2xl font-semibold text-[#0f172a] mb-6">
+            <h3 className="text-2xl font-semibold text-center text-[#0f172a] mb-6">
               Send us a Message
             </h3>
 
@@ -79,7 +79,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="w-full bg-linear-to-r from-orange-500 to-green-500  hover:bg-green-700 transition text-white py-3 rounded-lg font-semibold"
+                className="btn-primary"
               >
                 Send Message
               </button>

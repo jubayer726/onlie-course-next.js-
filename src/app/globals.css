@@ -35,4 +35,6 @@ body {
 .text-title {
   @apply text-[rgb(25,1,38)];
 }
-
+.btn-primary {
+  @apply bg-[#c01f5b] text-white hover:bg-[#a31b4e] transition py-3 rounded-lg font-semibold w-full py-2 text-center;
+}
