@@ -1,13 +1,11 @@
-"use client";
 import Container from "@/components/Container";
 import Image from "next/image";
-import { useParams } from "next/navigation";
-import { programs } from '@/data/programs.json';
+import programs from '@/data/programs.json';
+import Link from "next/link";
 
-const CourseDetails = ({ params }) => {
-   // const { id } = useParams();
-  const program = programs?.find(p => p.id === params.id);
-  console.log(program);
+const CourseDetails = async ({ params }) => {
+  const resolvedParams = await params;
+  const program = programs.find(p => p.id === resolvedParams.id);
 
   if (!program) {
     return (
@@ -22,7 +20,7 @@ const CourseDetails = ({ params }) => {
       <Container>
         
         {/* Header */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 text-title items-center">
           
           {/* Image */}
           <div className="rounded-2xl overflow-hidden shadow-lg">
@@ -58,9 +56,9 @@ const CourseDetails = ({ params }) => {
 
             {/* Action Buttons */}
             <div className="flex gap-4 pt-6">
-              <button className="px-6 py-2 rounded-full bg-blue-600 text-white font-medium hover:bg-blue-700 transition">
+              <Link href="/enroll" className="px-6 py-2 rounded-full bg-[#c01f5b] text-white hover:bg-[#a31b4e] transition">
                 Enroll Now
-              </button>
+              </Link>
               <button className="px-6 py-2 rounded-full border font-medium hover:bg-gray-100 transition">
                 Download Routine
               </button>
@@ -73,7 +71,7 @@ const CourseDetails = ({ params }) => {
           
           {/* Left */}
           <div className="lg:col-span-2 bg-white rounded-2xl p-6 shadow">
-            <h2 className="text-xl font-semibold mb-4">
+            <h2 className="text-xl text-title font-semibold mb-4">
               Program Details
             </h2>
 
@@ -87,7 +85,7 @@ const CourseDetails = ({ params }) => {
 
           {/* Right */}
           <div className="bg-white rounded-2xl p-6 shadow">
-            <h2 className="text-xl font-semibold mb-4">
+            <h2 className="text-xl text-title font-semibold mb-4">
               Subjects Covered
             </h2>
 

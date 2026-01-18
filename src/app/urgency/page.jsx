@@ -18,7 +18,7 @@ const Urgency = () => {
             <p className="text-gray-800 leading-relaxed">
               For any queries about ongoing courses or batches, call us.
               <br />
-              9 AM to 9 PM!
+              Our support team is available daily during the following hours:
             </p>
 
             <p className="text-primary font-semibold">
@@ -43,7 +43,7 @@ const Urgency = () => {
                 className="flex items-center gap-2  bg-gradient-to-r from-blue-500 to-indigo-600 px-4 py-2 rounded-lg font-medium hover:bg-blue-200 transition"
               >
                 <FaFacebookF />
-                Online Coaching Facebook Page
+                Facebook Page
               </a>
 
               <a
@@ -51,7 +51,7 @@ const Urgency = () => {
                 className="flex items-center gap-2 bg-gradient-to-r from-orange-500 to-pink-600 px-4 py-2 rounded-lg font-medium hover:bg-pink-200 transition"
               >
                 <FaYoutube />
-                Online Coaching YouTube Channel
+                YouTube Channel
               </a>
             </div>
           </div>

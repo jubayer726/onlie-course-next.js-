@@ -1,5 +1,6 @@
 "use client"
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 const Enroll = () => {
   const [formData, setFormData] = useState({
@@ -19,8 +20,7 @@ const Enroll = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
-    // You can integrate with backend or email service here
+    toast.success("Enrollment form submitted successfully!");
   };
 
   return (
@@ -32,7 +32,7 @@ const Enroll = () => {
         <form onSubmit={handleSubmit} className="space-y-6 text-gray-500">
           <div>
             <label className="block text-gray-700 font-medium mb-1">
-              Patients Name
+              Student Name
             </label>
             <input
               type="text"
@@ -71,14 +71,28 @@ const Enroll = () => {
           <div className="grid grid-cols-2 gap-4">
             <div>
               <label className="block text-gray-700 font-medium mb-1">
-                Age
+                Class
               </label>
-              <input
-                type="number"
-                name="age"
-                className="w-full border border-gray-300 rounded px-4 py-2"
+              <select
+                name="class"
+                className="w-full border border-gray-300  rounded px-4 py-2"
                 onChange={handleChange}
-              />
+              >
+                <option value="">Select Class</option>
+                <option value="Class-6">Class 6</option>
+                <option value="Class-7">Class 7</option>
+                <option value="Class-8">Class 8</option>
+                <option value="Class-9">Class 9</option>
+                <option value="Class-10">Class 10</option>
+                <option value="SSC">SSC</option>
+                <option value="HSC">HSC</option>
+                <option value="HSC-admission">HSC Admission</option>
+                <option value="Medical-admission">Medical Admission</option>
+                <option value="Engineering-admission">Engineering Admission</option>
+                <option value="University-admission">University Admission</option>
+                <option value="Job-preparation">Job Preparation</option>
+                <option value="Graduated">Graduated</option>
+              </select>
             </div>
             <div>
               <label className="block text-gray-800 font-medium mb-1">
@@ -119,18 +133,14 @@ const Enroll = () => {
               className="w-full border border-gray-300 rounded px-4 py-2"
               onChange={handleChange}
             >
-              <option value="">Select Service</option>
-              <option value="Baby Care">Baby Care</option>
-              <option value="Elderly Care">Elderly Care</option>
-              <option value="Sick People Care">Sick People Care</option>
-              <option value="Nursing Care">Nursing Care</option>
-              <option value="Physiotherapy">Physiotherapy</option>
-              <option value="Doctors Home Visit">Doctors Home Visit</option>
-              <option value="Post-operative Care">Post-operative Care</option>
-              <option value="Care for Special Children">
-                Care for Special Children
-              </option>
-              <option value="Babysitting">Babysitting</option>
+              <option value="">Select Course</option>
+              <option value="medical-admission">medical-admission</option>
+              <option value="university-k-admission">university-k-admission</option>
+              <option value="model-test-program">model-test-program</option>
+              <option value="engineering-admission">engineering-admission</option>
+              <option value="university-kh-admission">university-kh-admission</option>
+              <option value="class-6-10-academic">class-6-10-academic</option>
+              <option value="talent-hunt-program">talent-hunt-program</option>
             </select>
           </div>
 
