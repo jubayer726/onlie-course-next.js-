@@ -49,7 +49,7 @@ const SubjectSpecialist = () => {
             <SwiperSlide key={index}>
               <div
                 className="shadow-sm rounded-xl py-10 text-center
-                           bg-[#caced8] hover:bg-[#f0f2f7]
+                           bg-[#e8eaef] hover:bg-[rgb(252,252,252)]
                            transition duration-300
                            hover:shadow-lg cursor-pointer
                            font-black text-3xl"

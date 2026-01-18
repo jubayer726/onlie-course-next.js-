@@ -52,7 +52,7 @@ const Branches = () => {
                 {/* Left: Location & Phone */}
                 <div className="space-y-2 flex items-center justify-between ">
                   <div>
-                    <h3 className="text-lg font-bold text-black">
+                    <h3 className="text-lg font-bold text-secondary">
                     {dis.location}
                   </h3>
                   </div>

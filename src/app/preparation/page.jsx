@@ -13,13 +13,13 @@ export default function PreparationSection() {
               alt="Online preparation illustration"
               width={520}
               height={420}
-              className="w-full max-w-md"
+              className="w-full max-w-md hover:scale-105 transition-transform duration-300"
             />
           </div>
 
           {/* Right Content */}
           <div>
-            <h4 className="text-orange-500 font-bold text-xl mb-3">
+            <h4 className="text-primary font-bold text-xl mb-3">
               Whatever the situation
             </h4>
 
@@ -29,19 +29,19 @@ export default function PreparationSection() {
 
             <p className="text-gray-700 leading-relaxed space-y-4">
               Under the round-the-clock supervision of its own software team,
-              Udvash-Unmesh has the best online learning platform in the country
+              Online-Coaching has the best online learning platform in the country
               (<span className="text-purple-600 font-medium">
-                online.udvash-unmesh.com
+                online.online-coaching.com
               </span>).
               If the educational institution is closed due to any government
               regulations, all activities will continue online.
               <br /><br />
               As a result, there will be no disruption in the continuous
               preparation of the students. The enviable success of
-              Udvash-Unmesh students in various admission tests is the best
+              Online-Coaching students in various admission tests is the best
               proof of this.
               <br /><br />
-              It is worth noting that in addition to MCQ tests, Udvash Unmesh
+              It is worth noting that in addition to MCQ tests, Online-Coaching
               is the only one in Bangladesh that conducts online written tests
               similar to offline written tests to ensure balanced preparation
               of students online.
