@@ -1,6 +1,7 @@
 "use client"
 import { useState } from "react";
-import { toast } from "react-toastify";
+import { toast, ToastContainer } from "react-toastify";
+// import "react-toastify/dist/ReactToastify.css";
 
 const Enroll = () => {
   const [formData, setFormData] = useState({
@@ -164,6 +165,7 @@ const Enroll = () => {
           </button>
         </form>
       </div>
+      <ToastContainer />
     </div>
   );
 }

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const CourseCard = ({ program }) => {
   return (
-    <div className="max-w-sm bg-white rounded-2xl shadow-xl overflow-hidden border">
+    <div className="max-w-sm bg-white rounded-2xl shadow-xl overflow-hidden hover:scale-105 border">
       
       {/* Image Section */}
       <div className="relative">

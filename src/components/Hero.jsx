@@ -1,7 +1,8 @@
-export default function Hero() {
+const Hero = () => {
   return (
     <section className="w-full bg-gradient-to-b from-[#c01f5b] to-[#4b2a6b] py-20">
-      <div className="max-w-6xl mx-auto px-4">
+      <div
+            className="max-w-6xl mx-auto px-4">
         {/* Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
@@ -73,3 +74,5 @@ function HeroItem({ color, text, wide }) {
     </div>
   );
 }
+
+export default Hero;
