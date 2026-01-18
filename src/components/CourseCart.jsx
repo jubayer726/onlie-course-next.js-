@@ -39,9 +39,9 @@ const CourseCard = ({ program }) => {
             Details / Routine
           </Link>
 
-          <button className="flex-1 py-2 rounded-full bg-gradient-to-r from-orange-500 to-pink-600 text-white font-medium hover:scale-105 transition">
+          <Link href= "/enroll"  className="flex-1 py-2 text-center rounded-full bg-gradient-to-r from-orange-500 to-pink-600 text-white font-medium hover:scale-105 transition">
             Enroll Now
-          </button>
+          </Link>
         </div>
       </div>
     </div>

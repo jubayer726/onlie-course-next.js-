@@ -5,12 +5,9 @@ import { useParams } from "next/navigation";
 import { programs } from '@/data/programs.json';
 
 const CourseDetails = ({ params }) => {
-  const { id } = useParams();
-// const program = programs.find(p => p.id === params.id);
-// console.log(id, programs);
-
-   const program = programs[id];
-   console.log(program);
+   // const { id } = useParams();
+  const program = programs?.find(p => p.id === params.id);
+  console.log(program);
 
   if (!program) {
     return (
@@ -109,6 +106,7 @@ const CourseDetails = ({ params }) => {
 
       </Container>
     </section>
+
   );
 }
 
