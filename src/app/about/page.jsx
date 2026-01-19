@@ -21,8 +21,8 @@ const About = () => {
   ];
   return (
     <div className="bg-linear-to-r from-green-50 to-blue-50">
-      <section className="py-16 px-6 md:px-20 w-7xl mx-auto">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center py-16">
+      <section className="py-16 px-6 md:px-20 mx-auto max-w-7xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center py-16">
           {/* Left Text Section */}
           <div>
             <h2 className="text-3xl md:text-4xl font-semibold text-primary mb-6">
@@ -40,8 +40,8 @@ const About = () => {
               src="https://i.postimg.cc/5tSRf1g7/vision.webp"
               alt="about illustration"
               className="w-full max-w-md rounded"
-              width={400}
-              height={400}
+              width={200}
+              height={200}
             />
           </div>
         </div>
